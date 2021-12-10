@@ -1,2 +1,2 @@
 # Szerszamlada
-Segítség Foki kerget a pincében ez nem egy vicc.
+Weboldal: https://kecskeszsoltistvan.github.io/Szerszamlada/
