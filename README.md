@@ -1,2 +1,2 @@
 # Szerszamlada
-Segítség Foki a pincében tart ez nem egy vicc.
+Segítség Foki kerget a pincében ez nem egy vicc.
