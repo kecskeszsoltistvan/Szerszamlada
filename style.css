@@ -4,7 +4,12 @@ header{
 }
 
 a{
-    color: white;
+    color: rgb(147, 140, 214);
     text-decoration: none;
     padding: 15px 15px;
+
+}
+
+a:hover{
+    color: white;
 }
