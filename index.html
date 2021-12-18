@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Fafestékbolt</title>
 </head>
     <body>
@@ -12,7 +13,7 @@
             <div>
                 <img src="" alt="" title="">
                 <div class="menubar">
-                    <ul class="linkek">
+                    <ul class="linkek topnav" id="myTopnav">
                         <li><a href="index.html">Főoldal</a></li>
                         <li><a href="">Festékek</a></li>
                         <li><a href="">Faanyagok</a></li>
@@ -20,11 +21,9 @@
                         <li><a href="">Rólunk</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
-                        <button class="hambtn">
-                            <div class="lines"></div>
-                            <div class="lines"></div>
-                            <div class="lines"></div>
-                        </button>
+                        <a href="javascript:void(0);" class="icon hambtn xtra" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
                 </div>
             </div>
         </header>
@@ -74,5 +73,16 @@
                 <li>Telefonszám: +36 30 666 2542</li>
             </ul>
         </footer>
+        
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
     </body>
 </html>
