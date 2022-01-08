@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html">Főoldal</a>
+  <a href="">Festékek</a>
+  <a href="faanyagok.html">Faanyagok</a>
+  <a href="">Szerszámkatalógus</a>
+  <a href="">Rólunk</a>
+  <a href="blog.html" class=" active">Blog</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+  <div class="blog">
+      <h1>Blog</h1>
+      <p>A mi boltunkban mindig a legkorszerűbb eszközök találhatóak meg, már több mint 40 éve.</p>
+
+      <p>Ha akármelyik eszköz nincs raktáron, vagy nem elégedett a megrendelt eszközzel, küldjön e-mail címünkre egy levelet, vagy hívjon minket telenonszámunkon, és annak érdekében fogunk eljárni!</p>
+
+      <p>Jó vásárlást kívánunk, és köszönjük megértésüket!</p>
+  </div>
+
+<footer>
+<h3 id="elerhetosegek">Elérhetőségek</h3>
+<ul>
+    <li>E-mail: loremipsum@gmail.com</li>
+    <li>Telefonszám: +36 30 666 2542</li>
+</ul>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
