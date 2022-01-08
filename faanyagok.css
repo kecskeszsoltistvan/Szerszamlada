@@ -150,7 +150,7 @@ margin-top: 2%;
 }
 
 .kep{
-border: 2px solid rgba(100, 100, 100, 0.7);
+border: 5px solid rgba(100, 100, 100, 0.7);
 border-radius: 50%;
 width: 200px;
 height: 200px;
@@ -174,7 +174,7 @@ background-size: cover;
 }
   
 .cseresznye{
-background-image: url("kepek/cseresznyefa.jpg");
+background-image: url("kepek/cseresznye.jpg");
 background-size: cover;
 }
     
@@ -191,4 +191,11 @@ background-size: cover;
 .tolgy{
 background-image: url("kepek/tolgy.jpg");
 background-size: cover;
+}
+
+.faanyagok{
+background-color: rgba(255, 255, 255, 0.6);
+min-height: 80.5vmin;
+width: 90%;
+margin: auto;
 }
