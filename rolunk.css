@@ -125,7 +125,6 @@ table, th, td{
     margin: auto;
     padding: .009%;
     margin-bottom: 1%;
-    color: white;
 }
 
 table{
@@ -137,17 +136,14 @@ table{
   margin-top: 5%;
 }
 
-#haterkep{
-  color: white;
+.rolunk{
+  background-color: rgba(255, 255, 255, 0.6);
+  min-height: 80.5vmin;
+  width: 90%;
+  margin: auto;
 }
 
-.blog{
-    background-color: rgba(255, 255, 255, 0.6);
-    min-height: 80.5vmin;
-    width: 90%;
-    margin: auto;
-}
-
-h2{
-   margin-top: 2cm;
+.kepek{
+    border: 2px solid black;
+    width: 4.5cm;
 }
