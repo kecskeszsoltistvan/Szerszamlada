@@ -1,1 +1,50 @@
-<!-- Dudás Levente, ezt itt neked majd.-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="fa.css">
+
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="/index.html">Főoldal</a>
+  <a href="/festekek.html" class="active">Festékek</a>
+  <a href="/faanyagok.html">Faanyagok</a>
+  <a href="/szerszam.html">Szerszámkatalógus</a>
+  <a href="/rolunk.html">Rólunk</a>
+  <a href="/blog.html">Blog</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+    <div id="haterkep">
+        <h2>Bükk</h2>
+        <div class="kep bukk"></div>
+    </div>
+
+<footer>
+    <h3 id="elerhetosegek">Elérhetőségek</h3>
+    <ul>
+        <li>E-mail: loremipsum@gmail.com</li>
+        <li>Telefonszám: +36 30 646 2542</li>
+    </ul>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
