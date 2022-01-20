@@ -120,82 +120,61 @@ footer ul{
     }
 }
 
-table, th, td{
-    border: 5px solid black;
-    margin: auto;
-    padding: .009%;
-    margin-bottom: 1%;
-    color: white;
-}
-
-table{
-  margin-top: 0;
-  margin-bottom: 3%;
-}
-
-#nyitvatartas{
-  margin-top: 5%;
-}
-
-#haterkep{
-  color: white;
-}
-
 .fa-box{
-width: 250px;
-height: 350px;
-display: inline-block;
-margin: 1%;
-margin-top: 2%;
+  width: 250px;
+  height: 350px;
+  display: inline-block;
+  margin: 1%;
+  margin-top: 2%;
 }
 
 .kep{
-border: 5px solid rgba(100, 100, 100, 0.7);
-border-radius: 50%;
-width: 200px;
-height: 200px;
-margin-left: 10%;
-margin-top: 2%;
-cursor: pointer;
+  border: 5px solid rgba(100, 100, 100, 0.7);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 2%;
+  cursor: pointer;
 }
 
 #nev{
-margin: 20%;
-margin-top: 5%;
-padding: 15px;
-background-color: rgb(0, 99, 230);
-border-radius: 10%;
-color: white;
+  margin: 20%;
+  margin-top: 5%;
+  padding: 15px;
+  background-color: rgb(0, 99, 230);
+  border-radius: 10%;
+  color: white;
 }
 
 .bukk{
-background-image: url("kepek/bukk.jpg");
-background-size: cover;
+  background-image: url("kepek/bukk.jpg");
+  background-size: cover;
 }
   
 .cseresznye{
-background-image: url("kepek/cseresznye.jpg");
-background-size: cover;
+  background-image: url("kepek/cseresznye.jpg");
+  background-size: cover;
 }
     
 .dio{
-background-image: url("kepek/dio.jpg");
-background-size: cover;
+  background-image: url("kepek/dio.jpg");
+  background-size: cover;
 }
     
 .mahagoni{
-background-image: url("kepek/mahagoni.jpg");
-background-size: cover;
+  background-image: url("kepek/mahagoni.jpg");
+  background-size: cover;
 }
     
 .tolgy{
-background-image: url("kepek/tolgy.jpg");
-background-size: cover;
+  background-image: url("kepek/tolgy.jpg");
+  background-size: cover;
 }
 
 .faanyagok{
-background-color: rgba(255, 255, 255, 0.6);
-min-height: 80.5vmin;
-width: 90%;
-margin: auto;
+  background-color: rgba(255, 255, 255, 0.6);
+  min-height: 80.5vmin;
+  width: 90%;
+  margin: auto;
 }
