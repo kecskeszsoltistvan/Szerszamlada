@@ -73,7 +73,7 @@ color: whitesmoke;
 }
 
 a, h1, h2, p, td, th{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 footer{
@@ -101,6 +101,7 @@ table, th, td{
   text-align: left;
   border-collapse: collapse;
   font-weight: normal;
+  font-size: 20px;
 }
 
 table{
@@ -149,4 +150,9 @@ h1{
 
 #fekete{
   background-color: rgb(131, 131, 131);
+}
+
+p{
+  font-size: 25px;
+  padding: 5px;
 }
