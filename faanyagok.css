@@ -93,33 +93,6 @@ footer ul{
   padding: 0;
 }
 
-@media(max-width: 300px) {
-    #focim{
-        font-size: 10vw;
-    }
-
-    #nyitvatartas{
-        font-size: 8vw;
-    }
-
-    #elerhetosegek{
-        font-size: 6vw;
-    }
-
-    th, td{
-        font-size: 6vw;
-    }
-
-    footer li{
-        font-size: 5vw;
-        padding: 1%;
-    }
-
-    table, th, td{
-        padding: 1%;
-    }
-}
-
 .fa-box{
   width: 250px;
   height: 350px;
@@ -135,7 +108,6 @@ footer ul{
   height: 200px;
   margin-left: 10%;
   margin-top: 2%;
-  cursor: pointer;
 }
 
 #nev{
@@ -177,4 +149,27 @@ footer ul{
   min-height: 80.5vmin;
   width: 90%;
   margin: auto;
+}
+
+@media screen and (max-width: 350px) {
+  .kep{
+    border: 5px solid rgba(100, 100, 100, 0.7);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-left: 11%;
+    margin-top: 2%;
+  }
+
+  .fa-box{
+    width: 225px;
+    height: 350px;
+    display: inline-block;
+    margin: 1%;
+    margin-top: 2%;
+  }
+  
+  h1{
+    font-size: 25px;
+  }
 }
